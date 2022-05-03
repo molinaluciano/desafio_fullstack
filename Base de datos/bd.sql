@@ -1,0 +1,10 @@
+CREATE DATABASE test;
+USE test;
+
+CREATE TABLE `task` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `creationDate` datetime DEFAULT CURRENT_TIMESTAMP,
+  `description` varchar(255) DEFAULT NULL,
+  `status` bit(1) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=46 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;

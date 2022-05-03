@@ -1,0 +1,15 @@
+FROM node:14
+
+COPY [".", "react-app"]
+
+WORKDIR /react-app
+
+RUN npm install
+
+ARG port=3000
+
+ENV PORT=${port} 
+
+EXPOSE ${PORT}
+
+CMD ["npm", "start"]

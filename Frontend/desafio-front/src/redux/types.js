@@ -1,0 +1,6 @@
+export const types = {
+    TASK_FETCH: "TASK_FETCH",
+    TASK_SET_DATA_MODAL: "TASK_SET_DATA_MODAL",
+    TASK_SET_VIEW_MODAL: "TASK_SET_VIEW_MODAL",
+
+}
