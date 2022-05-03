@@ -3,7 +3,7 @@
 
 
 Proyecto desarrollado en Spring Boot con Java 11 en el Backend
-Realizado en React.js en el Frontend
+En el Frontend realizado en React.js
 Usando MYSQL como base de datos
 
 - Levantar bd MYSQL localmente con docker y correr el script de la base de datos
